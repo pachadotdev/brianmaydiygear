@@ -6,6 +6,8 @@ In principle, a silicon transistor such as the N5088 works for the booster, and 
 
 Most of the parts, except the vintage transistors, can be obtained from Tayda Electronics.
 
+These diagrams can be opened and edited with [DIY Layout Creator](https://github.com/bancika/diy-layout-creator).
+
 ## Notes
 
 The treble booster provided here is an "average" of many commercial units no longer sold: Dallas Rangemaster, Brian May's homemade treble booster, Orange Treble Booster, Guild Power Booster (1986), Fryer Treble Booster.
