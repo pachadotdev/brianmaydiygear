@@ -4,9 +4,9 @@ I have collected information from different sources to provide schematics to bui
 
 In principle, a silicon transistor such as the N5088 works for the booster, and a transistor such as a Newmark AC187 will be much closer to the original build.
 
-Most of the parts, except the vintage transistors, can be obtained from Tayda Electronics.
+Most of the parts, except the vintage transistors, can be obtained from [Tayda Electronics](https://www.taydaelectronics.com).
 
-These diagrams can be opened and edited with [DIY Layout Creator](https://github.com/bancika/diy-layout-creator).
+These diagrams can be opened and edited with [DIY Layout Creator](https://github.com/bancika/diy-layout-creator). I also build these units one at a time and sell them on [Reverb](https://reverb.com/ca/shop/mauricios-gear-emporium-95).
 
 ## Notes
 
