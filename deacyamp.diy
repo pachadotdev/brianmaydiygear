@@ -36,6 +36,28 @@
       <stripColor hex="da8a67"/>
       <orientation>HORIZONTAL</orientation>
     </diylc.boards.VeroBoard>
+    <diylc.boards.BlankBoard>
+      <name>Board2</name>
+      <alpha>127</alpha>
+      <value>Charge Pump</value>
+      <controlPoints>
+        <point x="3.5272678866056704" y="0.14241862906854663"/>
+        <point x="4.522267886605669" y="0.9574186290685467"/>
+      </controlPoints>
+      <firstPoint x="3.5272678866056704" y="0.14241862906854663"/>
+      <secondPoint x="4.522267886605669" y="0.9574186290685467"/>
+      <boardColor hex="f8ebb3"/>
+      <borderColor hex="ada47d"/>
+      <coordinateColor hex="b6b6b6"/>
+      <xType>Numbers</xType>
+      <coordinateOrigin>Top_Left</coordinateOrigin>
+      <coordinateDisplay>One_Side</coordinateDisplay>
+      <yType>Letters</yType>
+      <length value="25.27299999999997" unit="mm"/>
+      <width value="20.701" unit="mm"/>
+      <mode>TwoPoints</mode>
+      <type>SQUARE</type>
+    </diylc.boards.BlankBoard>
     <diylc.connectivity.TraceCut>
       <name>Cut1</name>
       <size value="0.08" unit="in"/>
@@ -234,6 +256,17 @@
       <holeSpacing value="0.1" unit="in"/>
       <point x="3.6559999999999993" y="2.845"/>
     </diylc.connectivity.TraceCut>
+    <diylc.misc.PCBText>
+      <name>L1</name>
+      <point x="4.03" y="0.355"/>
+      <text>Charge pump</text>
+      <font name="Courier New Bold" size="15" style="1"/>
+      <color hex="000000"/>
+      <horizontalAlignment>CENTER</horizontalAlignment>
+      <verticalAlignment>CENTER</verticalAlignment>
+      <orientation>DEFAULT</orientation>
+      <layer>_1</layer>
+    </diylc.misc.PCBText>
     <diylc.connectivity.HookupWire>
       <name>W5</name>
       <alpha>127</alpha>
@@ -472,9 +505,9 @@
       <name>J1</name>
       <alpha>127</alpha>
       <controlPoints>
-        <point x="5.015" y="0.64"/>
-        <point x="5.115" y="0.74"/>
-        <point x="4.915" y="0.8399999999999997"/>
+        <point x="5.295" y="0.43"/>
+        <point x="5.395" y="0.53"/>
+        <point x="5.195" y="0.6299999999999997"/>
       </controlPoints>
       <value></value>
       <polarity>CENTER_NEGATIVE</polarity>
@@ -496,9 +529,9 @@
       <name>J3</name>
       <alpha>127</alpha>
       <controlPoints>
-        <point x="2.9800000000000004" y="0.33"/>
-        <point x="3.3793177550194446" y="0.5290924884184005"/>
-        <point x="3.280210112662941" y="1.229842329243545"/>
+        <point x="1.7900000000000005" y="0.5"/>
+        <point x="2.1893177550194447" y="0.6990924884184005"/>
+        <point x="2.090210112662941" y="1.399842329243545"/>
       </controlPoints>
       <orientation>DEFAULT</orientation>
       <angle>0</angle>
@@ -1259,8 +1292,8 @@
       <controlPoints2>
         <point x="3.045" y="1.6499999999999992"/>
         <point x="3.3" y="1.165"/>
-        <point x="4.44" y="0.7799999999999991"/>
-        <point x="4.915" y="0.8399999999999997"/>
+        <point x="4.025" y="0.8499999999999992"/>
+        <point x="3.715" y="0.5599999999999997"/>
       </controlPoints2>
       <color hex="000000"/>
       <pointCount>FOUR</pointCount>
@@ -1314,7 +1347,7 @@
         <point x="5.0299999999999985" y="3.13"/>
         <point x="5.795" y="2.24"/>
         <point x="4.09" y="0.33499999999999974"/>
-        <point x="2.9800000000000004" y="0.33"/>
+        <point x="1.7900000000000005" y="0.5"/>
       </controlPoints2>
       <color hex="00ff00"/>
       <pointCount>FOUR</pointCount>
@@ -1383,7 +1416,7 @@
       <name>W23</name>
       <alpha>127</alpha>
       <controlPoints2>
-        <point x="5.015" y="0.64"/>
+        <point x="4.28" y="0.575"/>
         <point x="5.295" y="0.6849999999999992"/>
         <point x="5.98" y="3.075"/>
         <point x="5.0299999999999985" y="3.33"/>
@@ -1422,7 +1455,7 @@
         <point x="3.045" y="1.6499999999999992"/>
         <point x="2.7843177550194445" y="1.3940924884184005"/>
         <point x="3.269317755019444" y="0.9390924884184005"/>
-        <point x="3.3793177550194446" y="0.5290924884184005"/>
+        <point x="2.1893177550194447" y="0.6990924884184005"/>
       </controlPoints2>
       <color hex="000000"/>
       <pointCount>FOUR</pointCount>
@@ -1499,6 +1532,42 @@
       </controlPoints2>
       <color hex="00ff00"/>
       <pointCount>FIVE</pointCount>
+      <style>SOLID</style>
+      <smooth>true</smooth>
+      <lastUpdatePointIndex>-1</lastUpdatePointIndex>
+      <gauge>_22</gauge>
+      <striped>false</striped>
+      <stripeColor hex="ffff00"/>
+    </diylc.connectivity.HookupWire>
+    <diylc.connectivity.HookupWire>
+      <name>W29</name>
+      <alpha>127</alpha>
+      <controlPoints2>
+        <point x="3.715" y="0.5599999999999997"/>
+        <point x="4.215" y="0.5599999999999997"/>
+        <point x="4.335" y="0.855"/>
+        <point x="5.195" y="0.6299999999999997"/>
+      </controlPoints2>
+      <color hex="00ff00"/>
+      <pointCount>FOUR</pointCount>
+      <style>SOLID</style>
+      <smooth>true</smooth>
+      <lastUpdatePointIndex>-1</lastUpdatePointIndex>
+      <gauge>_22</gauge>
+      <striped>false</striped>
+      <stripeColor hex="ffff00"/>
+    </diylc.connectivity.HookupWire>
+    <diylc.connectivity.HookupWire>
+      <name>W30</name>
+      <alpha>127</alpha>
+      <controlPoints2>
+        <point x="4.28" y="0.575"/>
+        <point x="4.29" y="0.425"/>
+        <point x="4.56" y="0.065"/>
+        <point x="5.295" y="0.43"/>
+      </controlPoints2>
+      <color hex="00ff00"/>
+      <pointCount>FOUR</pointCount>
       <style>SOLID</style>
       <smooth>true</smooth>
       <lastUpdatePointIndex>-1</lastUpdatePointIndex>
